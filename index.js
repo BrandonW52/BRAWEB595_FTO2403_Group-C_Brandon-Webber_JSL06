@@ -55,7 +55,7 @@ function addToOrder(menuItem, menuCategories) {
 
   orderTotalElement.textContent = currentTotal;
 
-  // Removes items from order
+  // Removes items from order (its a lil extra)
   orderListItem.addEventListener("click", () => {
     orderListItem.remove();
 
